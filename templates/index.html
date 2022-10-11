@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "">
+    <head>
+        <meta charset = "utf-8">
+        <title>Image to Text</title>
+        <link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/4.3.1/css/bootstrap.min.css" integrity = "sha384-gg0yR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin = "anonymous">
+    </head>
+
+    <body>
+        <div class = "text-center">
+            <br><br>
+            <h1>Upload Image Below</h1><br><br>
+            <form method = POST enctype="multipart/form-data">
+                <input type="file" class = "btn btn-dark" name = "photo"><br><br>
+                <input id="input" type="text" class="form-control" placeholder="enter image name: " name="img-name"><br>
+                <input class="btn btn-dark" type="submit">
+            </form>
+        </div>
+    </body>
+
+    <style>
+        #input{
+            margin: auto;
+            width: auto;
+        }
+    </style>
+</html>
